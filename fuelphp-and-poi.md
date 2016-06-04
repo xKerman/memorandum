@@ -1,5 +1,11 @@
 # FuelPHP での PHP Object Injection について
 
+※2016-06-04 追記
+[Changelog v1.8.0 hotfix 1](https://github.com/fuel/core/wiki/Changelog-v1.8.0-hotfix-1)
+こちらのアップデートにより、 FuelPHP で使用される monolog がバージョンアップされました。その結果以下に記載の方法は 1.8.0 hotfix 1 以上の FuelPHP に対しては有効ではなくなっています。
+
+---
+
 [PHPにおけるオブジェクトインジェクション脆弱性について](http://blog.a-way-out.net/blog/2014/07/22/php-object-injection/) の下記の部分について。
 
 > 私の調べた範囲では、FuelPHP自体にはこの脆弱性により任意のコードを実行できるようなクラスはありませんでした（ただし、ファイルを削除することは可能でした。また、ユーザの作成したクラスに脆弱なものが存在する可能性もあります）。
